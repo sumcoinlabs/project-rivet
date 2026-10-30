@@ -1,0 +1,56 @@
+# Unity generated cache / build artifacts
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio / Rider / Xcode local generated files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+Thumbs.db
+
+# Unity / OS artifacts
+*.unitypackage
+*.apk
+*.aab
+*.ipa
+
+# Sensitive locally held credentials / keys
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+.env
+.env.*
+!*.env.example
+
+# Concept/business notes stay LOCAL (not part of public GitHub repository)
+/docs/internal/
+
+# Compatibility: original v1.0 local notes also must not be published
+/docs/MASTER_PLAN.md
+/docs/DECISIONS.md
+/docs/THIRD_PARTY.md
+/scripts/publish_private_repo.sh
