@@ -17,8 +17,8 @@ namespace ProjectRivet.Editor
             FirstFlightGame game = UnityEngine.Object.FindFirstObjectByType<FirstFlightGame>();
             if (game == null)
                 throw new Exception("No FirstFlightGame manager found in saved scene.");
-            if (typeof(WingoPhysics).GetMethod("RestoreBattery") == null)
-                throw new Exception("Expected Sprint 2 WingoPhysics API missing.");
+            if (typeof(WingoController).GetMethod("Setup") == null)
+                throw new Exception("Expected WingoController API missing.");
             Debug.Log("PROJECT RIVET SPRINT 2 SMOKE TEST PASS — scene opens and updated C# game systems compile.");
         }
     }
